@@ -63,7 +63,7 @@
           <li><a href="index.html">Ana səhifə</a></li>
           <li><a href="about.html">Haqqımızda</a></li>
           <li><a href="activities.html">Layihələr</a></li>
-          <li><a href="events.html">Fəaliyyətlər</a></li>
+          <li class="activity-menu"><span class="activity-menu-label">Fəaliyyətlər</span><button type="button" class="activity-menu-toggle" aria-label="Fəaliyyətlər menyusunu aç" aria-expanded="false" aria-controls="activity-menu-list"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button><div class="activity-menu-list" id="activity-menu-list"><a href="seminar.html">Seminar, Təlim və Vebinar</a><a href="talkshow.html">Teacher's Talk</a><a href="simulyasiya.html">Məktəb Simulyasiyası</a><a href="film-kitab-muzakiresi.html">Film və kitab müzakirəsi</a></div></li>
           <li><a href="courses.html">Onlayn kurs</a></li>
           <li><a href="gallery.html" class="active">Tərəfdaşlar</a></li>
           <li><a href="contact.html">Əlaqə</a></li>
@@ -78,6 +78,56 @@
   </section>
   </div>
 </section>
+
+<section class="photo-gallery-section" aria-labelledby="photo-gallery-title">
+  <div class="photo-gallery-container reveal">
+    <div class="section-heading-row">
+      <div>
+        <h2 class="section-title" id="photo-gallery-title">Fəaliyyət qalereyası</h2>
+      </div>
+    </div>
+    <div class="filter-controls" data-filter-group="gallery" role="group" aria-label="Qalereya filtri">
+      <button type="button" class="filter-button active" data-filter="all" aria-pressed="true">Hamısı</button>
+      <button type="button" class="filter-button" data-filter="seminar" aria-pressed="false">Seminarlar</button>
+      <button type="button" class="filter-button" data-filter="talk" aria-pressed="false">Görüşlər</button>
+      <button type="button" class="filter-button" data-filter="discussion" aria-pressed="false">Müzakirələr</button>
+    </div>
+    <div class="photo-gallery-grid">
+      <button type="button" class="gallery-item filter-item" data-category="seminar" data-image="images/Seminar.1.jpeg" data-caption="Seminar fəaliyyəti">
+        <img loading="lazy" src="images/Seminar.1.jpeg" alt="Seminar fəaliyyəti">
+        <span><i class="fa-solid fa-expand" aria-hidden="true"></i> Seminar</span>
+      </button>
+      <button type="button" class="gallery-item filter-item" data-category="seminar" data-image="images/Natiqlik.1.jpeg" data-caption="Natiqlik və təqdimat bacarıqları">
+        <img loading="lazy" src="images/Natiqlik.1.jpeg" alt="Natiqlik və təqdimat bacarıqları seminarı">
+        <span><i class="fa-solid fa-expand" aria-hidden="true"></i> Natiqlik</span>
+      </button>
+      <button type="button" class="gallery-item filter-item" data-category="talk" data-image="images/fuad.1.jpeg" data-caption="Teacher's Talk görüşü">
+        <img loading="lazy" src="images/fuad.1.jpeg" alt="Teacher's Talk görüşü">
+        <span><i class="fa-solid fa-expand" aria-hidden="true"></i> Teacher's Talk</span>
+      </button>
+      <button type="button" class="gallery-item filter-item" data-category="talk" data-image="images/sitare.2.jpeg" data-caption="Qonaqla görüş">
+        <img loading="lazy" src="images/sitare.2.jpeg" alt="Qonaqla görüş">
+        <span><i class="fa-solid fa-expand" aria-hidden="true"></i> Görüş</span>
+      </button>
+      <button type="button" class="gallery-item filter-item" data-category="discussion" data-image="images/ag-zanbalar.1.jpeg" data-caption="Kitab müzakirəsi">
+        <img loading="lazy" src="images/ag-zanbalar.1.jpeg" alt="Kitab müzakirəsi">
+        <span><i class="fa-solid fa-expand" aria-hidden="true"></i> Kitab müzakirəsi</span>
+      </button>
+      <button type="button" class="gallery-item filter-item" data-category="discussion" data-image="images/ders.1.jpeg" data-caption="Film müzakirəsi">
+        <img loading="lazy" src="images/ders.1.jpeg" alt="Film müzakirəsi">
+        <span><i class="fa-solid fa-expand" aria-hidden="true"></i> Film müzakirəsi</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="gallery-lightbox" role="dialog" aria-modal="true" aria-label="Şəkil baxışı" aria-hidden="true">
+  <div class="lightbox-content">
+    <button type="button" class="lightbox-close" aria-label="Şəkli bağla"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+    <img src="" alt="">
+    <p></p>
+  </div>
+</div>
 
  <section class="partners-section">
   <div class="partners-container">
@@ -223,7 +273,6 @@
       <a href="index.html">Ana səhifə</a>
       <a href="about.html">Haqqımızda</a>
       <a href="activities.html">Layihələr</a>
-      <a href="events.html">Fəaliyyətlər</a>
       <a href="courses.html">Onlayn kurs</a>
       <a href="gallery.html">Tərəfdaşlar</a>
       <a href="contact.html">Əlaqə</a>

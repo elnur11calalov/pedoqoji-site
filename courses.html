@@ -63,7 +63,7 @@
           <li><a href="index.html">Ana səhifə</a></li>
           <li><a href="about.html">Haqqımızda</a></li>
           <li><a href="activities.html">Layihələr</a></li>
-          <li><a href="events.html">Fəaliyyətlər</a></li>
+          <li class="activity-menu"><span class="activity-menu-label">Fəaliyyətlər</span><button type="button" class="activity-menu-toggle" aria-label="Fəaliyyətlər menyusunu aç" aria-expanded="false" aria-controls="activity-menu-list"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></button><div class="activity-menu-list" id="activity-menu-list"><a href="seminar.html">Seminar, Təlim və Vebinar</a><a href="talkshow.html">Teacher's Talk</a><a href="simulyasiya.html">Məktəb Simulyasiyası</a><a href="film-kitab-muzakiresi.html">Film və kitab müzakirəsi</a></div></li>
           <li><a href="courses.html" class="active">Onlayn kurs</a></li>
           <li><a href="gallery.html">Tərəfdaşlar</a></li>
           <li><a href="contact.html">Əlaqə</a></li>
@@ -74,6 +74,44 @@
 <section class="page-hero">
   <h1>Onlayn kurslar</h1>
   <p>Müəllimlər və abituriyentlər üçün təşkil olunan online kurs proqramları</p>
+</section>
+
+<section class="course-catalog-section" aria-labelledby="course-catalog-title">
+  <div class="course-catalog-container reveal">
+    <div class="section-heading-row">
+      <div>
+        <h2 class="section-title" id="course-catalog-title">Sizə uyğun proqramı seçin</h2>
+      </div>
+    </div>
+    <div class="filter-controls" data-filter-group="courses" role="group" aria-label="Kurs filtri">
+      <button type="button" class="filter-button active" data-filter="all" aria-pressed="true">Hamısı</button>
+      <button type="button" class="filter-button" data-filter="teacher" aria-pressed="false">Müəllimlər üçün</button>
+      <button type="button" class="filter-button" data-filter="student" aria-pressed="false">Abituriyentlər üçün</button>
+    </div>
+    <div class="course-catalog-grid">
+      <article class="course-catalog-card filter-item" data-category="teacher">
+        <div class="catalog-icon"><i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i></div>
+        <span class="catalog-type">Müəllimlər üçün</span>
+        <h3>Müəllim liderliyi</h3>
+        <p>Müasir tədris yanaşmaları, kommunikasiya və peşəkar inkişaf üzrə proqram.</p>
+        <a href="#qeydiyyat" class="catalog-link">Məlumat al <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </article>
+      <article class="course-catalog-card filter-item" data-category="teacher">
+        <div class="catalog-icon"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i></div>
+        <span class="catalog-type">Müəllimlər üçün</span>
+        <h3>İKT bacarıqları</h3>
+        <p>Dərs prosesində rəqəmsal alətlərdən daha səmərəli istifadə üçün praktik istiqamət.</p>
+        <a href="#qeydiyyat" class="catalog-link">Məlumat al <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </article>
+      <article class="course-catalog-card filter-item" data-category="student">
+        <div class="catalog-icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></div>
+        <span class="catalog-type">Abituriyentlər üçün</span>
+        <h3>Fənn hazırlığı</h3>
+        <p>Riyaziyyat, dil və təbiət fənləri üzrə sistemli, çevik dərs proqramları.</p>
+        <a href="#qeydiyyat" class="catalog-link">Məlumat al <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </article>
+    </div>
+  </div>
 </section>
 <section class="courses-section">
   <div class="courses-container">
@@ -112,7 +150,7 @@
       </div>
     </div>
 
-<p class="course-enquiry">Kursun proqramı, müəllimi, müddəti, dərs qrafiki və qiyməti barədə <a href="https://wa.me/994504452719">WhatsApp vasitəsilə məlumat alın</a>. Müraciət zamanı maraqlandığınız istiqaməti qeyd edin.</p>
+<p class="course-enquiry" id="qeydiyyat">Kursun proqramı, müəllimi, müddəti, dərs qrafiki və qiyməti barədə <a href="https://wa.me/994504452719">WhatsApp vasitəsilə məlumat alın</a>. Müraciət zamanı maraqlandığınız istiqaməti qeyd edin.</p>
 <div class="course-flow">
 
   <div class="flow-arrow">
@@ -218,7 +256,6 @@
       <a href="index.html">Ana səhifə</a>
       <a href="about.html">Haqqımızda</a>
       <a href="activities.html">Layihələr</a>
-      <a href="events.html">Fəaliyyətlər</a>
       <a href="courses.html">Onlayn kurs</a>
       <a href="gallery.html">Tərəfdaşlar</a>
       <a href="contact.html">Əlaqə</a>

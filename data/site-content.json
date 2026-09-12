@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "title": "Təhsil Mirası",
+      "date": "2026-10-05T19:00:00+04:00",
+      "category": "Xüsusi tədbir",
+      "location": "Bakı",
+      "description": "Müəllimlər Gününə həsr olunan bədii-ədəbi görüş.",
+      "url": "activities.html#tehsil-mirası"
+    }
+  ],
+  "news": [
+    {
+      "tag": "Layihə",
+      "title": "Seçilən Müəllim Yarışı davam edir",
+      "description": "Praktik pedaqoji bacarıqlarını göstərmək istəyən iştirakçılar üçün mərhələli seçim prosesi.",
+      "url": "activities.html#secilen-muellim"
+    },
+    {
+      "tag": "Tədbir",
+      "title": "Təhsil Mirası layihəsinə hazırlıq",
+      "description": "Müəllimlər Gününə həsr olunan tədbir barədə ətraflı məlumatla tanış olun.",
+      "url": "activities.html#tehsil-mirası"
+    },
+    {
+      "tag": "Kurslar",
+      "title": "Onlayn təhsil istiqamətləri",
+      "description": "Müəllimlərin inkişafı və abituriyent hazırlığı üzrə çevik proqramlarımızı araşdırın.",
+      "url": "courses.html"
+    }
+  ]
+}
